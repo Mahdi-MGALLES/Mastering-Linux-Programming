@@ -1,0 +1,12 @@
+Test :
+  # Clear the kernel log without echo
+  sudo dmesg -C
+  # Insert the module
+  sudo insmod lkm_example.ko
+  # Display the kernel log
+  dmesg
+  #create a device file so that we can communicate with our kernel module from user space
+  sudo mknod /dev/lkm_example c 241 0
+  #we can grab content from the device
+  cat /dev/lkm_example
+

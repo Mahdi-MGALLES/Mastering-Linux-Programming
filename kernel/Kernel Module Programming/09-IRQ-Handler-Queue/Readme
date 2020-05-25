@@ -1,0 +1,1 @@
+It reads the relevant information from the keyboard and then puts the information about status led and keycode into the work queue. This will be run when the kernel considers it safe.

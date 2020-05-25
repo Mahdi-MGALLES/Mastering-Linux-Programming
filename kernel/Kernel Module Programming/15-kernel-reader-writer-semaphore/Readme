@@ -1,0 +1,3 @@
+In most of the cases, it is quite desirable to have two or more threads having the read access to the resource as far as they are not modifying the resource data structure.  This will result into the improved system performance. Read on to find out the mechanism provided by kernel to achieve this.
+Reader / Writer Semaphore
+With this, multiple readers can have the access to the resource at the same time, while only one writer gets access at a time.

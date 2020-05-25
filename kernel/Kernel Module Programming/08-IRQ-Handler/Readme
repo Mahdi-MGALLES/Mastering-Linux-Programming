@@ -1,0 +1,1 @@
+simple kernel module example about how to use interrupt handler. The module services keyboard interrupts. It reads the relevant information from the keyboard and then puts information about Key that pressed

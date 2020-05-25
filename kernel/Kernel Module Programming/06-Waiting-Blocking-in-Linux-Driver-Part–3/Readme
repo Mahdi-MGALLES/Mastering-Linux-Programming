@@ -1,0 +1,1 @@
+Wait queue is a mechanism provided in kernel to implement the wait. As the name itself suggests, wait queue is the list of processes waiting for an event
