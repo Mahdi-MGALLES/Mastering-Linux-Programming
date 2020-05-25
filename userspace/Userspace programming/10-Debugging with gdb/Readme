@@ -1,0 +1,22 @@
+Starting gdb:
+$ cc -g -o debug3 debug3.c
+$ gdb debug3
+
+Running a Program:
+(gdb) run
+Stack Trace:
+(gdb) backtrace
+
+
+(gdb) break 11
+Now, I asked GDB to start the execution of the program:
+(gdb) run
+
+(gdb) print out
+
+I asked the debugger to continue the execution of the program until the next breakpoint, something which can be done using the 'c' command.
+c 
+
+
+Other tutorial link:
+https://u.osu.edu/cstutorials/2018/09/28/how-to-debug-c-program-using-gdb-in-6-simple-steps/

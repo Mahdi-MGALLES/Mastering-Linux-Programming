@@ -1,0 +1,4 @@
+When you start a child process with fork , it takes on a life of its own and runs independently. Sometimes,
+you would like to find out when a child process has finished. For example, in the previous program, the
+parent finishes ahead of the child and you get some messy output as the child continues to run. You can
+arrange for the parent process to wait until the child finishes before continuing by calling wait .
